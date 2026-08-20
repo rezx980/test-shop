@@ -1,0 +1,141 @@
+{
+  "siteName": "Pizza Arte",
+  "siteDescription": "Restaurante italiano auténtico",
+  
+  "navigation": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "featured": "Destacado",
+    "contact": "Contacto",
+    "about": "Nosotros",
+    "cart": "Carrito"
+  },
+  
+  "hero": {
+    "title": "Auténtico sabor italiano 🍕",
+    "subtitle": "Pizza fresca con ingredientes cuidadosamente seleccionados",
+    "orderNow": "Pedir ahora",
+    "viewMenu": "Ver menú",
+    "openMap": "Abrir mapa"
+  },
+  
+  "menu": {
+    "title": "Nuestro Menú",
+    "allCategories": "Todas las categorías",
+    "noProducts": "No hay productos en esta categoría",
+    "ingredients": "Ingredientes",
+    "price": "Precio",
+    "currency": "DA"
+  },
+  
+  "product": {
+    "addToCart": "Añadir al carrito",
+    "orderNow": "Pedir ahora",
+    "addedToCart": "Añadido al carrito",
+    "viewDetails": "Ver detalles"
+  },
+  
+  "cart": {
+    "title": "Carrito de compras",
+    "empty": "El carrito está vacío",
+    "emptyMessage": "Añade productos deliciosos a tu carrito",
+    "total": "Total",
+    "checkout": "Finalizar pedido",
+    "continueShopping": "Continuar comprando",
+    "removeItem": "Eliminar",
+    "quantity": "Cantidad"
+  },
+  
+  "whatsapp": {
+    "greeting": "Hola, me gustaría pedir:",
+    "orderSummary": "Resumen del pedido",
+    "total": "Total",
+    "sendOrder": "Enviar pedido por WhatsApp",
+    "thankYou": "¡Gracias por su pedido!"
+  },
+  
+  "contact": {
+    "title": "Contáctenos",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "whatsapp": "WhatsApp",
+    "hours": "Horario de atención",
+    "followUs": "Síguenos",
+    "getDirections": "Obtener direcciones",
+    "callNow": "Llamar ahora"
+  },
+  
+  "footer": {
+    "about": "Restaurante de pizza italiana que ofrece las mejores pizzas preparadas con ingredientes frescos y masa hecha diariamente",
+    "quickLinks": "Enlaces rápidos",
+    "navigation": "Navegación",
+    "contact": "Información de contacto",
+    "social": "Redes sociales",
+    "rights": "Todos los derechos reservados",
+    "madeWith": "Hecho con amor"
+  },
+  
+  "categories": {
+    "pizza": "Pizza",
+    "calzone": "Calzone",
+    "dessert": "Postres",
+    "drinks": "Bebidas",
+    "salads": "Ensaladas"
+  },
+  
+  "featured": {
+    "title": "Nuestro producto destacado",
+    "description": "Descubre nuestra obra maestra",
+    "ingredients": "Ingredientes",
+    "orderNow": "Pedir ahora"
+  },
+  
+  "story": {
+    "title": "Nuestra historia",
+    "step1": "Masa fresca",
+    "step2": "Salsa de tomate",
+    "step3": "Queso italiano",
+    "step4": "Ingredientes frescos",
+    "step5": "Horneado",
+    "step6": "Listo para servir"
+  },
+  
+  "about": {
+    "title": "Sobre nosotros",
+    "description": "Somos un restaurante italiano especializado en pizza auténtica",
+    "quality": "Alta calidad",
+    "fresh": "Ingredientes frescos",
+    "fast": "Servicio rápido"
+  },
+  
+  "hours": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "closed": "Cerrado",
+    "open": "Abierto"
+  },
+  
+  "errors": {
+    "loadError": "Error de carga",
+    "networkError": "Error de conexión",
+    "tryAgain": "Intentar de nuevo"
+  },
+  
+  "notifications": {
+    "addedToCart": "Añadido al carrito con éxito",
+    "removedFromCart": "Eliminado del carrito",
+    "orderSent": "Su pedido ha sido enviado con éxito",
+    "cartUpdated": "Carrito actualizado"
+  },
+  
+  "seo": {
+    "title": "Pizza Arte | Restaurante de pizza italiana",
+    "description": "Las mejores pizzas italianas en Argelia. Pizza fresca con ingredientes seleccionados y masa hecha diariamente",
+    "keywords": "pizza, restaurante, italiano, Pizza Arte, Argel"
+  }
+}
