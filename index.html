@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بيتزا أرتي | Pizza Arte</title>
+    <meta name="description" content="مطعم بيتزا أرتي - بيتزا إيطالية أصيلة">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="بيتزا أرتي | Pizza Arte">
+    <meta property="og:description" content="بيتزا إيطالية أصيلة">
+    <meta property="og:type" content="restaurant">
+    <meta property="og:image" content="/images/hero-pizza.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Pizza Arte",
+      "servesCuisine": "Italian, Pizza",
+      "priceRange": "$$",
+      "telephone": "+213555123456",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "شارع ديدوش مراد 45",
+        "addressLocality": "الجزائر",
+        "addressCountry": "DZ"
+      }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="/images/logo.png" alt="Pizza Arte Logo">
+                <span class="nav-brand">بيتزا أرتي</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="#home" data-i18n="home">الرئيسية</a></li>
+                <li><a href="#menu" data-i18n="menu">القائمة</a></li>
+                <li><a href="#featured" data-i18n="featured">المميز</a></li>
+                <li><a href="#contact" data-i18n="contact">اتصل بنا</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <!-- Cart Button -->
+                <button class="cart-btn" id="cartBtn" aria-label="السلة">
+                    🛒 <span class="cart-count">0</span>
+                </button>
+                
+                <!-- Language Selector -->
+                <div class="language-selector">
+                    <button class="lang-current" id="langCurrent">🌐 العربية</button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <button data-lang="ar">🇩🇿 العربية</button>
+                        <button data-lang="fr">🇫🇷 Français</button>
+                        <button data-lang="en">🇬🇧 English</button>
+                        <button data-lang="zh">🇨🇳 中文</button>
+                        <button data-lang="es">🇪🇸 Español</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">طعم إيطالي أصيل 🍕</h1>
+            <p class="hero-description">بيتزا طازجة بمكونات مختارة بعناية</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary" data-i18n="orderNow">اطلب الآن</a>
+                <a href="#menu" class="btn btn-secondary" data-i18n="viewMenu">شاهد القائمة</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/images/hero-pizza.jpg" alt="بيتزا طازجة">
+        </div>
+    </section>
+    
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title" data-i18n="categories">الأصناف</h2>
+            <div class="categories-grid" id="categoriesGrid">
+                <!-- Dynamically loaded -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title" data-i18n="menu">قائمة الطعام</h2>
+            <div class="menu-filters" id="menuFilters">
+                <!-- Category filters -->
+            </div>
+            <div class="menu-grid" id="menuGrid">
+                <!-- Product cards -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Product -->
+    <section class="featured" id="featured">
+        <div class="container">
+            <div class="featured-content">
+                <h2 class="featured-title">بيتزا الأجبان الأربعة</h2>
+                <div class="featured-ingredients">
+                    <div class="ingredient-step">موزاريلا</div>
+                    <div class="ingredient-step">شيدر</div>
+                    <div class="ingredient-step">إيدام</div>
+                    <div class="ingredient-step">بارميزان</div>
+                </div>
+                <div class="featured-price">750 DA</div>
+                <button class="btn btn-order" data-i18n="orderNow">اطلب الآن</button>
+            </div>
+            <div class="featured-image">
+                <img src="/images/pizza-4-formaggi.jpg" alt="بيتزا الأجبان الأربعة">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact">اتصل بنا</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>📍 <span data-i18n="address">العنوان</span></h3>
+                    <p>شارع ديدوش مراد 45، الجزائر</p>
+                    
+                    <h3>📞 <span data-i18n="phone">الهاتف</span></h3>
+                    <p>+213555123456</p>
+                    
+                    <h3>🕐 <span data-i18n="hours">ساعات العمل</span></h3>
+                    <p>يوميًا: 11:00 - 23:00</p>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <img src="/images/logo.png" alt="Pizza Arte Logo" class="footer-logo">
+                    <p class="footer-description">مطعم بيتزا إيطالي أصيل</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="navigation">روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home" data-i18n="home">الرئيسية</a></li>
+                        <li><a href="#menu" data-i18n="menu">القائمة</a></li>
+                        <li><a href="#featured" data-i18n="featured">المميز</a></li>
+                        <li><a href="#contact" data-i18n="contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="contact">اتصل بنا</h3>
+                    <p>📍 شارع ديدوش مراد 45، الجزائر</p>
+                    <p>📞 +213555123456</p>
+                    <p>💬 WhatsApp: +213555123456</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="followUs">تابعنا</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pizza Arte. <span data-i18n="allRightsReserved">جميع الحقوق محفوظة</span></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <h2 data-i18n="cart">السلة</h2>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items -->
+            </div>
+            <div class="cart-total">
+                <span data-i18n="total">المجموع:</span>
+                <span id="cartTotal">0 DA</span>
+            </div>
+            <button class="btn btn-whatsapp" id="whatsappBtn" data-i18n="sendWhatsApp">إرسال الطلب عبر WhatsApp</button>
+            <button class="btn btn-close" id="closeCart" data-i18n="close">إغلاق</button>
+        </div>
+    </div>
+    
+    <script src="js/translations.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
