@@ -1,0 +1,141 @@
+{
+  "siteName": "披萨艺术",
+  "siteDescription": "正宗意大利餐厅",
+  
+  "navigation": {
+    "home": "首页",
+    "menu": "菜单",
+    "featured": "特色",
+    "contact": "联系我们",
+    "about": "关于我们",
+    "cart": "购物车"
+  },
+  
+  "hero": {
+    "title": "正宗意大利风味 🍕",
+    "subtitle": "新鲜披萨，精选食材",
+    "orderNow": "立即订购",
+    "viewMenu": "查看菜单",
+    "openMap": "打开地图"
+  },
+  
+  "menu": {
+    "title": "我们的菜单",
+    "allCategories": "所有分类",
+    "noProducts": "此分类暂无产品",
+    "ingredients": "成分",
+    "price": "价格",
+    "currency": "DA"
+  },
+  
+  "product": {
+    "addToCart": "加入购物车",
+    "orderNow": "立即订购",
+    "addedToCart": "已加入购物车",
+    "viewDetails": "查看详情"
+  },
+  
+  "cart": {
+    "title": "购物车",
+    "empty": "购物车是空的",
+    "emptyMessage": "添加一些美味的产品到购物车",
+    "total": "总计",
+    "checkout": "结账",
+    "continueShopping": "继续购物",
+    "removeItem": "删除",
+    "quantity": "数量"
+  },
+  
+  "whatsapp": {
+    "greeting": "你好，我想订购：",
+    "orderSummary": "订单摘要",
+    "total": "总计",
+    "sendOrder": "通过WhatsApp发送订单",
+    "thankYou": "感谢您的订单！"
+  },
+  
+  "contact": {
+    "title": "联系我们",
+    "address": "地址",
+    "phone": "电话",
+    "whatsapp": "WhatsApp",
+    "hours": "营业时间",
+    "followUs": "关注我们",
+    "getDirections": "获取路线",
+    "callNow": "立即致电"
+  },
+  
+  "footer": {
+    "about": "意大利披萨餐厅，提供采用新鲜食材和每日制作面团的最佳披萨",
+    "quickLinks": "快速链接",
+    "navigation": "导航",
+    "contact": "联系信息",
+    "social": "社交媒体",
+    "rights": "版权所有",
+    "madeWith": "用爱制作"
+  },
+  
+  "categories": {
+    "pizza": "披萨",
+    "calzone": "半月披萨",
+    "dessert": "甜点",
+    "drinks": "饮品",
+    "salads": "沙拉"
+  },
+  
+  "featured": {
+    "title": "我们的特色产品",
+    "description": "发现我们的杰作",
+    "ingredients": "成分",
+    "orderNow": "立即订购"
+  },
+  
+  "story": {
+    "title": "我们的故事",
+    "step1": "新鲜面团",
+    "step2": "番茄酱",
+    "step3": "意大利奶酪",
+    "step4": "新鲜食材",
+    "step5": "烤箱烘烤",
+    "step6": "准备上桌"
+  },
+  
+  "about": {
+    "title": "关于我们",
+    "description": "我们是一家专门经营正宗披萨的意大利餐厅",
+    "quality": "高品质",
+    "fresh": "新鲜食材",
+    "fast": "快速服务"
+  },
+  
+  "hours": {
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日",
+    "closed": "休息",
+    "open": "营业"
+  },
+  
+  "errors": {
+    "loadError": "加载错误",
+    "networkError": "连接错误",
+    "tryAgain": "重试"
+  },
+  
+  "notifications": {
+    "addedToCart": "成功加入购物车",
+    "removedFromCart": "已从购物车中删除",
+    "orderSent": "您的订单已成功发送",
+    "cartUpdated": "购物车已更新"
+  },
+  
+  "seo": {
+    "title": "披萨艺术 | 意大利披萨餐厅",
+    "description": "阿尔及利亚最好的意大利披萨。新鲜披萨，精选食材，每日制作面团",
+    "keywords": "披萨，餐厅，意大利，披萨艺术，阿尔及尔"
+  }
+}
