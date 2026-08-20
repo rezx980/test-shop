@@ -1,0 +1,141 @@
+{
+  "siteName": "Pizza Arte",
+  "siteDescription": "Authentic Italian Restaurant",
+  
+  "navigation": {
+    "home": "Home",
+    "menu": "Menu",
+    "featured": "Featured",
+    "contact": "Contact",
+    "about": "About",
+    "cart": "Cart"
+  },
+  
+  "hero": {
+    "title": "Authentic Italian Taste 🍕",
+    "subtitle": "Fresh pizza with carefully selected ingredients",
+    "orderNow": "Order Now",
+    "viewMenu": "View Menu",
+    "openMap": "Open Map"
+  },
+  
+  "menu": {
+    "title": "Our Menu",
+    "allCategories": "All Categories",
+    "noProducts": "No products in this category",
+    "ingredients": "Ingredients",
+    "price": "Price",
+    "currency": "DA"
+  },
+  
+  "product": {
+    "addToCart": "Add to Cart",
+    "orderNow": "Order Now",
+    "addedToCart": "Added to cart",
+    "viewDetails": "View Details"
+  },
+  
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Cart is empty",
+    "emptyMessage": "Add some delicious products to your cart",
+    "total": "Total",
+    "checkout": "Checkout",
+    "continueShopping": "Continue Shopping",
+    "removeItem": "Remove",
+    "quantity": "Quantity"
+  },
+  
+  "whatsapp": {
+    "greeting": "Hello, I would like to order:",
+    "orderSummary": "Order Summary",
+    "total": "Total",
+    "sendOrder": "Send Order via WhatsApp",
+    "thankYou": "Thank you for your order!"
+  },
+  
+  "contact": {
+    "title": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "hours": "Opening Hours",
+    "followUs": "Follow Us",
+    "getDirections": "Get Directions",
+    "callNow": "Call Now"
+  },
+  
+  "footer": {
+    "about": "Italian pizza restaurant offering the best pizzas made with fresh ingredients and daily-made dough",
+    "quickLinks": "Quick Links",
+    "navigation": "Navigation",
+    "contact": "Contact Info",
+    "social": "Social Media",
+    "rights": "All rights reserved",
+    "madeWith": "Made with love"
+  },
+  
+  "categories": {
+    "pizza": "Pizza",
+    "calzone": "Calzone",
+    "dessert": "Desserts",
+    "drinks": "Drinks",
+    "salads": "Salads"
+  },
+  
+  "featured": {
+    "title": "Our Featured Product",
+    "description": "Discover our masterpiece",
+    "ingredients": "Ingredients",
+    "orderNow": "Order Now"
+  },
+  
+  "story": {
+    "title": "Our Story",
+    "step1": "Fresh dough",
+    "step2": "Tomato sauce",
+    "step3": "Italian cheese",
+    "step4": "Fresh ingredients",
+    "step5": "Baked in oven",
+    "step6": "Ready to serve"
+  },
+  
+  "about": {
+    "title": "About Us",
+    "description": "We are an Italian restaurant specializing in authentic pizza",
+    "quality": "High Quality",
+    "fresh": "Fresh Ingredients",
+    "fast": "Fast Service"
+  },
+  
+  "hours": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "open": "Open"
+  },
+  
+  "errors": {
+    "loadError": "Loading error",
+    "networkError": "Connection error",
+    "tryAgain": "Try again"
+  },
+  
+  "notifications": {
+    "addedToCart": "Successfully added to cart",
+    "removedFromCart": "Removed from cart",
+    "orderSent": "Your order has been sent successfully",
+    "cartUpdated": "Cart updated"
+  },
+  
+  "seo": {
+    "title": "Pizza Arte | Italian Pizza Restaurant",
+    "description": "The best Italian pizzas in Algeria. Fresh pizza with selected ingredients and daily-made dough",
+    "keywords": "pizza, restaurant, Italian, Pizza Arte, Algiers"
+  }
+}
